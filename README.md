@@ -1,4 +1,4 @@
-# Aerial Object Detection: YOLO26 vs RT-DETR
+# Object Detection using UAV Imagery: YOLO26 vs RT-DETR
 ### BEL (Bharat Electronics Limited) Internship Project
 
 ## Overview
