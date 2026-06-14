@@ -1,6 +1,10 @@
 # Object Detection using UAV Imagery: YOLO26 vs RT-DETR
 ### BEL (Bharat Electronics Limited) Internship Project
 
+[![Live Demo](https://img.shields.io/badge/🤗%20Hugging%20Face-Live%20Demo-blue)](https://huggingface.co/spaces/Axhigowda/aerial-detection-bel)
+
+> 🚀 **Try the live demo:** [huggingface.co/spaces/Axhigowda/aerial-detection-bel](https://huggingface.co/spaces/Axhigowda/aerial-detection-bel)
+
 ## Overview
 Comparative study of CNN-based (YOLO26s) and Transformer-based (RT-DETR-L) architectures for real-time aerial object detection on UAV imagery using the VisDrone2019 dataset.
 
