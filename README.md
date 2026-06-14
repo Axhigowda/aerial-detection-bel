@@ -30,20 +30,16 @@ for real-time aerial object detection on UAV imagery using the VisDrone2019 data
 - RT-DETR was constrained to 320px due to T4 GPU memory limits
 
 ## Project Structure
-├── notebook/          # Kaggle training notebook
-
+aerial-detection-bel/
 ├── results/
-
 │   ├── comparison_chart.png
-
 │   ├── perclass_comparison.png
-
 │   ├── yolo26_detections.png
-
-│   └── rtdetr_detections.png
-
-├── weights/           # Model weights (best.pt)
-
+│   ├── rtdetr_detections.png
+│   ├── yolo26_metrics.json
+│   └── rtdetr_metrics.json
+├── .gitignore
+├── LICENSE
 └── README.md
 
 ## Tech Stack
