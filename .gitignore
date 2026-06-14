@@ -1,3 +1,19 @@
+# Model weights (too large for GitHub)
 *.pt
 *.onnx
+*.pth
+
+# Python
 __pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Data (too large)
+*.zip
+*.tar.gz
+VisDrone/
+
+# System
+.DS_Store
+Thumbs.db
