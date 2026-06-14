@@ -2,14 +2,12 @@
 ### BEL (Bharat Electronics Limited) Internship Project
 
 ## Overview
-Comparative study of CNN-based (YOLO26s) and Transformer-based (RT-DETR-L) architectures
-for real-time aerial object detection on UAV imagery using the VisDrone2019 dataset.
+Comparative study of CNN-based (YOLO26s) and Transformer-based (RT-DETR-L) architectures for real-time aerial object detection on UAV imagery using the VisDrone2019 dataset.
 
 ## Results
-
 | Model | mAP@50 | mAP@50-95 | Precision | Recall | Inference |
 |-------|--------|-----------|-----------|--------|-----------|
-| YOLO26s | **0.368** | **0.211** | **0.486** | **0.379** | **3.0ms** |
+| **YOLO26s** | **0.368** | **0.211** | **0.486** | **0.379** | **3.0ms** |
 | RT-DETR-L | 0.072 | 0.035 | 0.231 | 0.182 | 14.3ms |
 
 ## Dataset
@@ -30,6 +28,7 @@ for real-time aerial object detection on UAV imagery using the VisDrone2019 data
 - RT-DETR was constrained to 320px due to T4 GPU memory limits
 
 ## Project Structure
+```
 aerial-detection-bel/
 ├── results/
 │   ├── comparison_chart.png
@@ -41,6 +40,7 @@ aerial-detection-bel/
 ├── .gitignore
 ├── LICENSE
 └── README.md
+```
 
 ## Tech Stack
 - Python 3.12, PyTorch 2.10, Ultralytics 8.4
@@ -50,9 +50,9 @@ aerial-detection-bel/
 
 ## How to Run
 ```bash
-pip install ultralytics gradio
-
-# Run inference
+pip install ultralytics
+```
+```python
 from ultralytics import YOLO
 model = YOLO('weights/yolo26s_best.pt')
 results = model('your_drone_image.jpg', imgsz=640)
