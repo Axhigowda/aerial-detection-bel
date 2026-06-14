@@ -1,0 +1,20 @@
+{
+  "model": "RT-DETR-L",
+  "mAP50": 0.0718,
+  "mAP50_95": 0.0354,
+  "precision": 0.231,
+  "recall": 0.182,
+  "inference_ms": 14.3,
+  "per_class_AP": {
+    "pedestrian": 0.0509,
+    "people": 0.0649,
+    "bicycle": 0.00121,
+    "car": 0.32,
+    "van": 0.0825,
+    "truck": 0.0224,
+    "tricycle": 0.0213,
+    "awning-tricycle": 0.0109,
+    "bus": 0.0734,
+    "motor": 0.0704
+  }
+}

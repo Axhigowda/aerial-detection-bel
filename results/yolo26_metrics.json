@@ -1,0 +1,20 @@
+{
+  "model": "YOLO26s",
+  "mAP50": 0.368,
+  "mAP50_95": 0.211,
+  "precision": 0.486,
+  "recall": 0.379,
+  "inference_ms": 3.0,
+  "per_class_AP": {
+    "pedestrian": 0.425,
+    "people": 0.315,
+    "bicycle": 0.113,
+    "car": 0.774,
+    "van": 0.417,
+    "truck": 0.349,
+    "tricycle": 0.258,
+    "awning-tricycle": 0.125,
+    "bus": 0.49,
+    "motor": 0.416
+  }
+}
